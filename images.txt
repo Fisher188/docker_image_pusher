@@ -1,2 +1,3 @@
-Fisher188/vnpy:latest
-Fisher188/kronos:latest
+vnpy/vnpy:latest
+dream123/vnpy:latest
+#Fisher188/kronos:latest
