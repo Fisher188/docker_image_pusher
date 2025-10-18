@@ -1,2 +1,2 @@
-vnpy:latest
-kronos:latest
+vnpy/vnpy:latest
+#kronos:latest
