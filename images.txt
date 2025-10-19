@@ -1,2 +1,4 @@
-dream123/vnpy:latest
-#Fisher188/kronos:latest
+Fisher188/docker_image_pusher
+Fisher188/vnpy
+Fisher188/Kronos
+pyqlib/qlib_image_stable:latest
