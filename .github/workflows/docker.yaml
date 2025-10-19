@@ -52,7 +52,8 @@ jobs:
 
     - name: Build and push image Tencent
       run: |
-        docker login -u $TENCENT_REGISTRY_USER -p $TENCENT_REGISTRY_PASSWORD $TENCENT_REGISTRY
+        docker login ccr.ccs.tencentyun.com -u $TENCENT_REGISTRY_USER -p $TENCENT_REGISTRY_PASSWORD $TENCENT_REGISTRY
+        # docker login ccr.ccs.tencentyun.com -u [腾讯云账号ID] -p [密码]
         
         # 数据预处理,判断镜像是否重名
         declare -A duplicate_images
