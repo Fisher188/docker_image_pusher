@@ -1,5 +1,5 @@
 pyqlib/qlib_image_stable:latest
 #fisher188/docker_image_pusher:latest
 #fisher188/vnpy
-fisher188/Kronos
+#fisher188/Kronos
 fisher188/easyXT
