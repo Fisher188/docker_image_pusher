@@ -54,7 +54,6 @@ jobs:
       run: |
         docker login ccr.ccs.tencentyun.com -u $TENCENT_REGISTRY_USER -p $TENCENT_REGISTRY_PASSWORD
         # docker login ccr.ccs.tencentyun.com -u $TENCENT_REGISTRY_USER -p $TENCENT_REGISTRY_PASSWORD $TENCENT_REGISTRY
-
         # docker login ccr.ccs.tencentyun.com -u [腾讯云账号ID] -p [密码]
        # docker login --username=[腾讯云账号ID] ccr.ccs.tencentyun.com
 
