@@ -1,4 +1,4 @@
 Fisher188/docker_image_pusher:latest
 Fisher188/vnpy
-Fisher188/Kronos
+#Fisher188/Kronos
 pyqlib/qlib_image_stable:latest
