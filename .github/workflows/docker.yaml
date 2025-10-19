@@ -57,7 +57,7 @@ jobs:
 
     - name: Build and push image TENCENT
       run: |
-        docker login ccr.ccs.tencentyun.com -u $TENCENT_REGISTRY_USER -p $TENCENT_REGISTRY_PASSWORD $TENCENT_REGISTRY
+        docker login ccr.ccs.tencentyun.com -u $TENCENT_REGISTRY_USER -p $TENCENT_REGISTRY_PASSWORD
         # 数据预处理,判断镜像是否重名
         declare -A duplicate_images
         declare -A temp_map
